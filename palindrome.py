@@ -27,5 +27,5 @@ class palindrome(object):
             print("Its Palindrome")
 
 
-palindrome.palindromecheck2("a")
+palindrome.palindromecheck2("0")
 

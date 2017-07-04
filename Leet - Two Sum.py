@@ -17,6 +17,8 @@ class sum(object):
             ptr1=ptr1+1
         if flag is False:
             print("Could not find the number set")
+
+
     def twoSum2(self, nums, target):    #correct the function names
         map = {}
         for i in range(len(nums)):
