@@ -16,8 +16,8 @@ class Solution(object):
                 temp=temp-romandictionary[s[i]]
                 # print(s[i])
                 # print(romandictionary[s[i+1]])
-        temp=temp+romandictionary[s[-1]]
-        print(temp)
-
+        #temp=temp+romandictionary[s[-1]]
+        #print(temp)
+        return(temp+romandictionary[s[-1]])
 obj=Solution()
 obj.romanToInt("IX")
